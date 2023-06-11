@@ -31,6 +31,80 @@
 please enter an url:
 ```
 
+```bash
+Map loaded.
+Cities:     //Alphabetical Order
+---------------------
+Bones Beach
+Composting Fields
+Fire Hazard
+Fishingville
+Gatsby
+Kingkongoma
+Lawn City
+North Spoon
+Small Pear
+South Spoon
+Stream Foot
+University
+Road                                  Capacity
+----------------------------------------------
+Composting Fields to Small Pear            12
+Lawn City to Small Pear                    30
+Hipster to Small Pear                      14
+Hipster to Small Pear                      16
+Lawn City to Hipster                       16
+Gatsby to Composting Fields                10
+Fishingville to Lawn City                  17
+Fishingville to Gatsby                     11
+Bones Beach to Hipster                     12
+Bones Beach to Lawn City     	              8
+Fire Hazard to Bones Beach                 13
+Kingkongoma to Fire Hazard                  7
+Kingkongoma to Lawn City                   20
+University to Kingkongoma                   6
+University to Fishingville                 18
+Stream Foot to University                   6
+Steam Foot to Kingkongoma                  11
+North Spoon to Stream Foot                 15
+South Spoon to Stream Foot                 20
+
+Menu:
+    D) Destinations reachable (Depth First Search)
+    F) Maximum Flow
+    S) Shortest Path 
+    Q) Quit
+    
+Please select an option: D
+Please enter a starting city: University
+DFS Starting From University:
+Fishingville,Gatsby,Composting Fields, Small Pear,Lawn City, Hipster,Kingkongoma,Fire Hazard,BonesBeach
+Please select an option: D
+Please enter a starting node: South Spoon
+DFS results (destinations reachable):
+Stream Foot, Kingkongoma, Lawn City, Small Pear, Fire Hazard, Bones Beach, Hipster, Fishingville, Gatsby, Composting Fields
+Please select an option: F
+Please enter a starting city: University
+Please enter a destination: Hipster
+Routing: 
+University->Fishingville->Lawn City->Hipster: 16
+University->Kingkongoma->Fire Hazard->Bones Beach->Hipster: 6
+Maximum Flow: 22
+//Routing doesn't matter, so long as the right routes appear, and for each path, the maximum flow equals the minimum of available flow rate among the edges within route.
+Please select an option: F
+Please enter a starting city: University
+Please enter a destination: South Spoon
+No route available!
+Please select an option: S 
+Please enter a starting node: Kingkongoma
+Please enter a destination node: Small Pear
+Path: Kingkongoma->Fire Hazard->Bones Beach->Hipster->Small Pear
+Cost: 46
+Please select an option: Q
+You can go your own way! Goodbye!
+
+```
+
 
  ## License
  Copyright [2023] [Amir Hamza]
