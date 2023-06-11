@@ -100,6 +100,7 @@ Please enter a destination node: Small Pear
 Path: Kingkongoma->Fire Hazard->Bones Beach->Hipster->Small Pear
 Cost: 46
 Please select an option: Q
+
 You can go your own way! Goodbye!
 
 ```
