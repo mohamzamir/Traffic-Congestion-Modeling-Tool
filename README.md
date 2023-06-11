@@ -58,7 +58,7 @@ Gatsby to Composting Fields                10
 Fishingville to Lawn City                  17
 Fishingville to Gatsby                     11
 Bones Beach to Hipster                     12
-Bones Beach to Lawn City     	              8
+Bones Beach to Lawn City     	            8
 Fire Hazard to Bones Beach                 13
 Kingkongoma to Fire Hazard                  7
 Kingkongoma to Lawn City                   20
@@ -90,7 +90,6 @@ Routing:
 University->Fishingville->Lawn City->Hipster: 16
 University->Kingkongoma->Fire Hazard->Bones Beach->Hipster: 6
 Maximum Flow: 22
-//Routing doesn't matter, so long as the right routes appear, and for each path, the maximum flow equals the minimum of available flow rate among the edges within route.
 Please select an option: F
 Please enter a starting city: University
 Please enter a destination: South Spoon
