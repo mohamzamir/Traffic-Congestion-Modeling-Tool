@@ -22,6 +22,15 @@
  The Java Simulator is built to manage and calculate traffic flows. It accepts a list of cities and roads as input, along with the maximum capacity of each road.
 
  The maximum flow between two cities is calculated using the DFS and Ford-Fulkerson algorithms, providing an optimized solution for high-density traffic conditions. Dijkstra’s Algorithm is implemented to determine the shortest path between two cities, further improving the tool's efficiency.
+ 
+ ## Program Sample
+ 
+ Welcome to the Island Designer, because, when you're trying to stay above water, Seas get degrees!
+
+```bash
+please enter an url:
+```
+
 
  ## License
  Copyright [2023] [Amir Hamza]
