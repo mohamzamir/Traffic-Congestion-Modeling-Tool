@@ -80,7 +80,7 @@ Menu:
 Please select an option: D
 Please enter a starting city: University
 DFS Starting From University:
-Fishingville,Gatsby,Composting Fields, Small Pear,Lawn City, Hipster,Kingkongoma,Fire Hazard,BonesBeach
+Fishingville, Gatsby, Composting Fields, Small Pear, Lawn City, Hipster, Kingkongoma, Fire Hazard, BonesBeach
 Please select an option: D
 Please enter a starting node: South Spoon
 DFS results (destinations reachable):
