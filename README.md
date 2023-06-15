@@ -33,6 +33,7 @@ please enter an url:
 
 ```bash
 Map loaded.
+
 Cities:     //Alphabetical Order
 ---------------------
 Bones Beach
@@ -47,6 +48,7 @@ Small Pear
 South Spoon
 Stream Foot
 University
+
 Road                                  Capacity
 ----------------------------------------------
 Composting Fields to Small Pear            12
